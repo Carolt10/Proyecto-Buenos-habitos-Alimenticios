@@ -1,7 +1,9 @@
 # Historias de Usuario
+
 El tablero Kanban original puede ser consultado en los Anexos del presente documento.
 
 <img width="907" height="510" alt="image" src="https://github.com/user-attachments/assets/35d4d012-20e1-47f4-8d23-c2e02e9f4a72" />
+
 Nota. Visualización de tablero Trello. 
 Fuente: Elaboración propia en Trello.
 
@@ -38,6 +40,7 @@ Fuente: Elaboración propia en Trello.
 •	Para enriquecer el repositorio de información del sitio web.
 
 5.	Acceso a material offline:
+
 •	Como acudiente con poco tiempo de conexión.
 
 •	Quiero descargar guías en formato PDF.
