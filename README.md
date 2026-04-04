@@ -5,15 +5,14 @@ Esta aplicación web está diseñada para promover hábitos alimenticios saludab
 
 ## Características
 - **Contenido Educativo**: Artículos informativos sobre hábitos alimenticios saludables.
-- **Juegos Interactivos**: Juegos divertidos que enseñan a los niños la importancia de la nutrición.
 - **Sugerencias de Recetas**: Una colección de recetas saludables que son fáciles para que los niños preparen con sus padres.
-- **Seguimiento de Progreso**: Herramientas para que los padres de familia puedan dar seguimiento a los hábitos alimenticios de sus hijos y mejoras.
+
 
 ## Público Objetivo
 Esta aplicación está dirigida principalmente a niños de 4 a 6 años y sus padres.
 
 ## Objetivo
-El objetivo principal de este proyecto es inculcar hábitos alimenticios saludables de por vida en niños pequeños a través de experiencias de aprendizaje divertidas e interactivas.
+Desarrollar un sitio web interactivo que contenga información y material para generar conciencia a los padres de los niños del Jardín Semillero de Ibagué con respecto a los hábitos alimenticios con el propósito de disminuir notablemente el consumo de productos azucarados.
 
 ## Institución
 Jardín Infantil Semillero
