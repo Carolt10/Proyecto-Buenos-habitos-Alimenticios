@@ -1,16 +1,19 @@
-# Healthy Eating Habits for Children
+# Hábitos Alimenticios Saludables para Niños
 
-## Project Overview
-This web application is designed to promote healthy eating habits among children at Semillero kindergarten. The application will provide engaging content, interactive features, and resources for both children and parents.
+## Descripción del Proyecto
+Esta aplicación web está diseñada para promover hábitos alimenticios saludables entre los niños del jardín infantil Semillero. La aplicación proporcionará contenido atractivo, características interactivas y recursos tanto para niños como para padres de familia.
 
-## Features
-- **Educational Content**: Informational articles about healthy eating habits.
-- **Interactive Games**: Fun games that teach children the importance of nutrition.
-- **Recipe Suggestions**: A collection of healthy recipes that are easy for kids to make with their parents.
-- **Progress Tracking**: Tools for parents to track their children's eating habits and improvements.
+## Características
+- **Contenido Educativo**: Artículos informativos sobre hábitos alimenticios saludables.
+- **Juegos Interactivos**: Juegos divertidos que enseñan a los niños la importancia de la nutrición.
+- **Sugerencias de Recetas**: Una colección de recetas saludables que son fáciles para que los niños preparen con sus padres.
+- **Seguimiento de Progreso**: Herramientas para que los padres de familia puedan dar seguimiento a los hábitos alimenticios de sus hijos y mejoras.
 
-## Target Audience
-This application aims primarily at children aged 4 to 6 years and their parents.
+## Público Objetivo
+Esta aplicación está dirigida principalmente a niños de 4 a 6 años y sus padres.
 
-## Goal
-The main goal of this project is to instill lifelong healthy eating habits in young children through fun and interactive learning experiences.
+## Objetivo
+El objetivo principal de este proyecto es inculcar hábitos alimenticios saludables de por vida en niños pequeños a través de experiencias de aprendizaje divertidas e interactivas.
+
+## Institución
+Jardín Infantil Semillero
