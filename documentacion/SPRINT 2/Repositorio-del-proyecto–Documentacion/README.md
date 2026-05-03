@@ -1,8 +1,5 @@
 # 🥗 Proyecto Buenos Hábitos Alimenticios
 
-## Descripción del Proyecto
-Este proyecto busca promover **hábitos alimenticios saludables** en los niños del Jardín Semillero Infantil de Ibagué mediante el diseño de un sitio web con el objetivo de concientizar sobre el consumo excesivo de azúcar infantil.
-
 ---
 
 ## 📚 Repositorios
@@ -26,19 +23,3 @@ Accede al sitio web ya desplegado en Vercel:
 🔗 **[Visitar Sitio Web en Vivo](https://desarrollo-proyecto-buenos-habitos.vercel.app/)**
 
 ---
-
-## 📋 Estructura del Proyecto
-
-Este repositorio contiene toda la documentación necesaria para entender y dar seguimiento al desarrollo del proyecto de promoción de hábitos alimenticios saludables.
-
----
-
-## 👥 Equipo de Desarrollo
-
-Proyecto desarrollado por estudiantes con el objetivo de crear un impacto positivo en la salud infantil.
-
----
-
-## 📄 Notas
-
-Para más información sobre el proyecto, consulta los archivos de documentación en las carpetas correspondientes a cada Sprint.
