@@ -6,7 +6,13 @@ Objetivo de pruebas unitarias
 Las pruebas se dividieron en dos capas:
 •	Capa de Backend: Donde se verificó de manera aislada la lógica de negocio, las funciones utilitarias compartidas (backend,shared,utils) y los módulos principales como por ejemplo education y testimonials, asegurando que el procesamiento de datos en el servidor sea correcto.
 •	Capa de Frontend: Se testearon los servicios encargados de la comunicación con las APIs (education/services, recipes/services, testimonials,services), garantizando que la transferencia y el modelado de datos hacia la interfaz de usuario se realicen sin alteraciones.
+
+
 Ilustración 31 - Pruebas Unitarias
+
+<img width="922" height="236" alt="image" src="https://github.com/user-attachments/assets/80d2b655-574e-403b-92b8-ce0de026ef42" />
+
+
  
 Nota. Pruebas unitarias. Fuente: Elaboración propia (2026).
 
@@ -23,9 +29,11 @@ Las pruebas de integración buscan asegurar:
 •	Los servicios el Frontend realices las peticiones HTTP correctas y que el Backend reciba, procese e integre esos datos en sus módulos correspondientes.
 •	Las funciones compartidas actúen de manera cohesiva como el tejido conectivo del sistema, garantizando que los datos transformados en el servidor se reflejen con exactitud en la interfaz de usuario.
 •	El sistema mantenga la integridad y la consistencia de los datos cuando diferentes módulos operan en conjunto ante escenarios reales de uso.
+
 Ilustración 32 - Pruebas de integración
- 
-Nota. Pruebas de integración. Fuente: Elaboración propia (2026).
+<img width="922" height="167" alt="image" src="https://github.com/user-attachments/assets/85695a46-ebd1-4b85-b1ba-154dc4eb5e9c" />
+ Nota. Pruebas de integración. Fuente: Elaboración propia (2026).
+
 
 Análisis de pruebas de integración
 El reporte demuestra un escenario ideal de integración, alcanzando un 100% de cobertura en todas las métricas conjuntas por lo que podemos concluir:
