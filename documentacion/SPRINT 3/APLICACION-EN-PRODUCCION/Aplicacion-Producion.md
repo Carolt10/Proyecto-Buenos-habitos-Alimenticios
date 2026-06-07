@@ -8,14 +8,18 @@ El repositorio del proyecto incluye los siguientes manifiestos esenciales para e
 Análisis de evidencias de ejecución local
 De acuerdo con el flujo de trabajo desarrollado y las pruebas de infraestructura registradas en la rama dev/actions, se documenta el comportamiento analítico del proceso de virtualización:
 •	Construcción y despliegue de contenedores: Mediantes la ejecución del comando docker compose up –build, el motor de Docker procesa secuencialmente los manifiestos de configuración y exporta las capas correspondientes. Este proceso compila satisfactoriamente la imagen bajo la etiqueta desarrollo-proyecto-buenos-habitos-alimenticios-app:latest. Posteriormente, el orquestador inicializa de manera óptima la red virtual dedicada (desarrollo-proyecto-buenos-habitos-alimenticios_default) y pone en marcha el contenedor.
+
 Ilustración 36 - Construcción y despliegue de contenedores
+<img width="815" height="403" alt="image" src="https://github.com/user-attachments/assets/416d1166-1cbb-4ad2-a9b3-40c693dab0f2" />
  
 Nota. Construcción y despliegue de contenedores. Fuente: Elaboración propia (2026).
 
 •	Validación del ciclo de vida y variables de entorno: Al inicializar el servicio del framework (next start) dentro del contenedor en el puerto 3000, el servidor ejecuta las rutinas de verificación de conectividad. Durante esta fase, el sistema arroja la siguiente excepción controlada en los registros de la consola:
 [v0] Error en getTestimonials: Error: your project’s URL and Key are required to create a Supabase client!
 Este comportamiento es correcto y responde al diseño de arquitectura segura estipulado en los registros de decisión de arquitectura (ADR). La excepción demuestra la existencia de un mecanismo estricto de validación para las variables de entorno. Al no estar parametrizadas las credenciales del servicio Supabase dentro del archivo .env local asignado al contenedor, el cliente de la base de datos restringe la conexión para salvaguardar la integridad de la infraestructura. Para habilitar el funcionamiento local pleno, se requiere la inyección previa de las llaves NEXT_PUBLIC_SUPABASE_URL y NEXT_PUBLIC_SUPABASE_ANON_KEY en las variables del entorno virtualizado.
+
 Ilustración 37 - Validación del ciclo de vida y variables de entorno
+<img width="841" height="291" alt="image" src="https://github.com/user-attachments/assets/943ee4cd-9728-4dbc-b45c-801a7d37d823" />
  
 Nota. Validación del ciclo de vida y variables de entorno. Fuente: Elaboración propia (2026).
 
